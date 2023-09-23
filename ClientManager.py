@@ -97,13 +97,9 @@ class ClientManager:
 
 
 
-
-clientManager = ClientManager()
-clientManager.createClient("zakaria","cheradg","0046315","adsad","zcherra@gma.com")
-clientManager.createClient("sdfsd","cheradg","454","adsad","zcherra@gma.com")
-clientManager.createClient("gtr","cheradg","0046315","adsad","zcherra@gma.com")
-clientManager.createClient("rwe","cheradg","0046315","adsad","zcherra@gma.com")
-#clientManager.saveData()
-#result = clientManager.loadData()
-clientManager.saveJson()
-
+if __name__ =='__main__':
+    #clientManager = ClientManager()
+    #clientManager.saveData()
+    #result = clientManager.loadData()
+    #clientManager.saveJson()
+    pass
